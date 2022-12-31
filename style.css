@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image:
+    linear-gradient(rgb(6, 11, 6), rgb(72, 11, 240));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.converter-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(127, 241, 247);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.col {
+    flex-basis: 32%;
+    text-align: center;
+}
+
+.col label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.col input {
+    width: 150px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
